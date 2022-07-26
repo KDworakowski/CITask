@@ -4,20 +4,6 @@ on: [push]
 
 jobs:
 
-  requirements:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-    - name: Check if can install requirements
-      run: |
-        pip install -r requirements.txt
-
   pytest:
 
     runs-on: ubuntu-latest
