@@ -1,2 +1,2 @@
-pytest
-pytest-repeat
+pytest=7.0.0
+pytest-repeat=0.9.1
