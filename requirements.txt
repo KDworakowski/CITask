@@ -1,4 +1,2 @@
-random
-
 pytest
 pytest-repeat
